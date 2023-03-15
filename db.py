@@ -1,6 +1,6 @@
 import mysql.connector
 
-inf = input('введіть дані: ')
+inf = input('enter data: ')
 
 def datab(inf):   
     connection = mysql.connector.connect(host='localhost',
